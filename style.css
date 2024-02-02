@@ -1,0 +1,80 @@
+    body{background-image:url("cookie background.jpeg");
+    background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+
+
+h1{color: white;
+font-family: "press start 2p","consolas";
+text-shadow: 0px -2px 5px yellow, 0px -8px 5px red;
+
+}
+h1:hover{box-shadow: 5px 5px 5px white;}
+
+
+h2{color: white;font-family:"consolas"}
+h3{color: white; font-family: "consolas";}
+
+p{font-family: sans-serif; }
+
+.odd{color: white  ;}
+
+.box1{border: 2px solid;
+width:300px;
+height:250px;
+font-size: 20px;
+background-color: burlywood;
+
+animation: 5s ease-in-out infinite mySlide;
+
+}
+
+.box2{border:2px solid;
+    width:300px;
+    height:250px;
+    font-size: 20px;
+        background-color: white;
+    position: relative;
+
+    left:302px;
+bottom: 253px;}
+
+img{float: left;width: 125px;;
+    height: 125px;
+    border-radius: 57px;
+}
+h2{clear: both;}
+
+a:link{color: lawngreen;}
+a:visited{color: lawngreen;}
+a:hover{color: purple;}
+
+button{background-color: wheat;}
+button:hover{background-color:white
+}
+.fa-house{color: wheat;}
+@keyframes mySlide{
+    50%{margin-top: 100px; margin-bottom: 100px;} 
+    50%{margin-top: 100px; margin-bottom: 100px;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
